@@ -10,7 +10,7 @@ public class Array1 {
         int[] numerosDos = {1,2,3,4,5,6,7,8,9,10};
         int longitudArray = numerosDos.length;
         System.out.println(longitudArray);
-        for(int i = 0; i <= numerosDos.length; i++){
+        for(int i = 0; i < numerosDos.length; i++){
             System.out.println(numerosDos[i]);
         }
     }
