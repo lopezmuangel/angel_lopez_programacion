@@ -13,5 +13,20 @@ public class Array1 {
         for(int i = 0; i < numerosDos.length; i++){
             System.out.println(numerosDos[i]);
         }
+
+        numerosDos[7] = 88;
+
+        System.out.println("Modifico alguna posición");
+
+        for(int i = 0; i < numerosDos.length; i++) {
+            System.out.println(numerosDos[i]);
+        }
     }
+    //meter en un array de 15 posiciones 15 números aleatorios entre el 0 y el 50 en el menor número de líneas posibles
+    //indicar cuantos pares hay y cuantos impares hay
+
+
+    //Para guardar muchas string se utiliza object
+    Object[] cositas = {1, "hola", };
+
 }
