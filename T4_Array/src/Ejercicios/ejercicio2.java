@@ -14,7 +14,7 @@ public class ejercicio2 {
         //Programa
         for (int i = 0; i < aleatorios.length; i++){
             //int aleatorio = (int) Math.random()*11;
-            aleatorios[i] = (int) (Math.random()*11;
+            aleatorios[i] = (int) (Math.random()*11);
         }
 
 
