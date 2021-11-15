@@ -10,20 +10,23 @@ public class ejercicio3 {
     //en orden normal, es decir, el primero que se muestra es el primero que se ha introducido
 
     public static void main(String[] args) {
+
+        //Variables
         int[] numeros = new int[10];
         Scanner lecturaTeclado = new Scanner(System.in);
 
+        //Programa
         for (int i = 0; i < numeros.length; i++) {
             System.out.println("Introduce numero a guardar");
             int numero = lecturaTeclado.nextInt();
             numeros[i] = numero;
         }
         System.out.println("Orden inverso");
-        for(int i = 9;i >-1; i--){
+        for (int i = 9; i > -1; i--) {
             if (i == 0) {
                 System.out.print(numeros[i]);
-            }else if (i <= 9){
-                System.out.print(numeros[i]+",");
+            } else if (i <= 9) {
+                System.out.print(numeros[i] + ",");
             }
 
         }
@@ -32,10 +35,10 @@ public class ejercicio3 {
 
         System.out.println("Orden normal");
         //1,2,3,4,5,6,7,8,9,0
-        for (int i = 0; i < numeros.length; i++){
-            if (i < 9){
-                System.out.print(numeros[i]+",");
-            }else{
+        for (int i = 0; i < numeros.length; i++) {
+            if (i < 9) {
+                System.out.print(numeros[i] + ",");
+            } else {
                 System.out.println(numeros[i]);
             }
         }
