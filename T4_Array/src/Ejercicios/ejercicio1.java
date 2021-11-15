@@ -16,5 +16,9 @@ public class ejercicio1 {
             numeros[i]=numero;
 
         }
+
+        for (int i = 0; i < numeros.length; i++){
+            System.out.printf("%d : %d%n", i, numeros[i]);
+        }
     }
 }
