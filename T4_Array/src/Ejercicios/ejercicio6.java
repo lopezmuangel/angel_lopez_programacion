@@ -17,7 +17,7 @@ public class ejercicio6 {
             //int aleatorio = (int) Math.random()*11;
             aleatorios[i] = (int) (Math.random() * 31);
         }
-        
+
         //evaluar
         for (int i = 0; i < aleatorios.length; i++) {
             if (aleatorios[i] == 6) {
